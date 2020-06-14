@@ -1,6 +1,6 @@
 import requests
 from flask import render_template_string
-
+ 
 
 class Platform:
     def docs(self):
