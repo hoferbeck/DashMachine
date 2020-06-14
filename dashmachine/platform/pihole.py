@@ -265,7 +265,7 @@ data_sources = pihole-data
         for key, value in kwargs.items():
             self.__dict__[key] = value
 
-        # self.pihole = PiHole(self.host)
+        self.pihole = PiHole(self.host)
 
     def process(self):
         self.pihole.refresh()
